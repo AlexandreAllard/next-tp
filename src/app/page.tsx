@@ -114,7 +114,7 @@ export default function HomePage() {
                 <div style={{ display: "flex", gap:"20px"}}>
                 <input
                     type="text"
-                    placeholder="Rechercher par nom..."
+                    placeholder="Rechercher"
                     value={searchName}
                     onChange={handleNameChange}
                     style={{ padding:"10px", borderRadius: "100px", backgroundColor: "#fff", position: "relative", color: "#000", cursor: "pointer"}}                />

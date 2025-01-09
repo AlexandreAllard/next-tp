@@ -37,7 +37,7 @@ export default function PokemonPage() {
                 const data = await res.json();
                 setPokemon(data);
             } catch {
-                console.error("Erreur lors de la récupération des données.");
+                console.error("Erreur.");
             }
         }
         fetchPokemon();
